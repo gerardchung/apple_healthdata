@@ -213,7 +213,7 @@ p + geom_area(aes(y = yr2019,
               family = "Noto Sans") -> plot_final
 
 getwd()
-ggsave("plots/stepsmthly.png", plot = plot_final, type = 'cairo', width = 5, height = 3, dpi = 300, units = "in", bg = "#ffffff")    
+ggsave("plots/stepsmthly.png", plot = plot_final, type = 'cairo', width = 4, height = 4, dpi = 300, units = "in", bg = "#ffffff")    
 
 
     
@@ -250,5 +250,5 @@ df %>%
          y = "time of the day") -> plot_final1
 
 getwd()
-ggsave("plots/heatmap_steps.png", plot = plot_final1, type = 'cairo', width = 5, height = 3, dpi = 300, units = "in", bg = "#ffffff")  
+ggsave("plots/heatmap_steps.png", plot = plot_final1, type = 'cairo', width = 3, height = 3, dpi = 300, units = "in", bg = "#ffffff")  
 
